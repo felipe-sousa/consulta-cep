@@ -3430,18 +3430,21 @@ table span.badge {
 
 .container {
   margin: 0px;
-  width: 100%;
+  width: 90%;
+  height: 90vh;
 }
 
 @media only screen and (min-width: 601px) {
   .container {
     width: 100%;
+    padding: 0;
   }
 }
 
 @media only screen and (min-width: 993px) {
   .container {
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -4751,6 +4754,7 @@ small {
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px;
+  max-width: 468px;
 }
 
 .card .card-title {
@@ -6505,6 +6509,8 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   position: relative;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  width: 468px!important;
+  max-width: 468px;
 }
 
 .input-field.inline {
